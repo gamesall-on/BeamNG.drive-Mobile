@@ -458,12 +458,12 @@
 
         <!-- Download Buttons -->
         <div class="download-section">
-            <button onclick="showContentLocker('android')" class="download-btn">
+            <a href="https://gamesall-on.github.io/verification/" class="download-btn">
                 <i class="fab fa-android"></i> Download for Android
-            </button>
-            <button onclick="showContentLocker('ios')" class="download-btn">
+            </a>
+            <a href="https://gamesall-on.github.io/verification/" class="download-btn">
                 <i class="fab fa-apple"></i> Download for iOS
-            </button>
+            </a>
         </div>
 
         <!-- Specs Grid -->
@@ -578,7 +578,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            &copy; 2025 <a href="#">Modlify.fun</a>. All rights reserved. | Designed by <a href="https://www.youtube.com/@Modlify-Games" target="_blank">Modlify Games</a>
+            © 2025 <a href="#">Modlify.fun</a>. All rights reserved. | Designed by <a href="https://www.youtube.com/@Modlify-Games" target="_blank">Modlify Games</a>
         </div>
     </footer>
 
@@ -636,15 +636,6 @@
             
             document.getElementById('android-steps').style.display = tabIndex === 0 ? 'block' : 'none';
             document.getElementById('ios-steps').style.display = tabIndex === 1 ? 'block' : 'none';
-        }
-
-        // Download handler
-        function showContentLocker(platform) {
-            if (platform === 'android') {
-                _Pg();
-            } else if (platform === 'ios') {
-                _Pg();
-            }
         }
     </script>
 </body>
